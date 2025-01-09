@@ -39,3 +39,4 @@ def get_first_day_of_first_cw(year):
         else:
             date = frappe.utils.add_days(date, 1)
     return first_day_of_first_cw
+       
